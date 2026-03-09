@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GSM TRADING ZONE</title>
+<style>
+    /* Reset & base */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color:#f9f9f9; color:#333; line-height:1.6; }
+    a { color:#007bff; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    header {
+        background-color:#fff;
+        padding:30px 20px;
+        text-align:center;
+        box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    header h1 { font-size:2.2rem; color:#007bff; margin-bottom:10px; }
+    header p { font-size:1rem; color:#555; }
+
+    nav { margin-top:15px; }
+    nav a { margin:0 15px; font-weight:bold; font-size:1rem; }
+
+    section { padding:60px 20px; max-width:1000px; margin:0 auto; }
+    section h2 { font-size:1.8rem; text-align:center; margin-bottom:30px; position:relative; }
+    section h2::after {
+        content:'';
+        display:block;
+        width:60px;
+        height:3px;
+        background-color:#007bff;
+        margin:10px auto 0;
+        border-radius:2px;
+    }
+
+    .info-card {
+        background:#fff;
+        padding:20px;
+        margin-bottom:20px;
+        border-radius:10px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.08);
+        transition:transform 0.3s;
+    }
+    .info-card:hover { transform: translateY(-5px); }
+    .info-card h3 { color:#007bff; margin-bottom:10px; }
+    .info-card p { color:#555; }
+
+    /* Contact section */
+    #contact form {
+        max-width:600px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    #contact input, #contact textarea {
+        padding:12px;
+        border-radius:8px;
+        border:1px solid #ccc;
+        font-size:1rem;
+    }
+
+    #contact button {
+        padding:12px;
+        border:none;
+        border-radius:8px;
+        background-color:#007bff;
+        color:#fff;
+        font-size:1rem;
+        cursor:pointer;
+        transition: background 0.3s;
+    }
+
+    #contact button:hover { background-color:#0056b3; }
+
+    footer {
+        text-align:center;
+        padding:20px;
+        color:#666;
+        font-size:0.9rem;
+    }
+
+    /* Responsive */
+    @media(max-width:768px) {
+        nav a { display:block; margin:5px 0; }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>GSM TRADING ZONE</h1>
+    <p>Business to Business Services | Karachi, Pakistan</p>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#location">Location</a>
+    </nav>
+</header>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="info-card">
+        <h3>B2B Product Distribution</h3>
+        <p>We provide reliable business-to-business services for mobile, software, and electronic products.</p>
+    </div>
+    <div class="info-card">
+        <h3>Wholesale Solutions</h3>
+        <p>High-quality products at competitive rates for resellers and partners.</p>
+    </div>
+    <div class="info-card">
+        <h3>Custom Business Support</h3>
+        <p>Tailored support for your business needs including delivery and service solutions.</p>
+    </div>
+</section>
+
+<section id="location">
+    <h2>Our Location</h2>
+    <div class="info-card">
+        <h3>AS #11 Block-B, N.C.H.S, Karachi Block 10A, 75300</h3>
+        <p>Plus Code: W2HP+97 North Nazimabad Town, Karachi, Pakistan</p>
+        <p>Phone: <a href="tel:+923332746999">+92 333 2746999</a></p>
+        <p><a href="https://www.google.com/maps/place/W2HP%2B97+North+Nazimabad+Town,+Karachi" target="_blank">View on Google Maps</a></p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p style="text-align:center; margin-top:15px;">Instagram: <a href="https://instagram.com/gsmtradingzone" target="_blank">@gsmtradingzone</a></p>
+</section>
+
+<footer>
+    &copy; 2026 GSM TRADING ZONE. All Rights Reserved.
+</footer>
+
+</body>
+</html>
